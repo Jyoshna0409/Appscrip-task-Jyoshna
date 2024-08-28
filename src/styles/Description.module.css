@@ -1,0 +1,27 @@
+/* Hero.module.css */
+.description_headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh; /* Ensures the section takes up the full viewport height */
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+    text-align: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc; /* Adds a bottom border line */
+    padding-bottom: 20px; /* Adds some space below the content */
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 0; /* Ensure no extra space above */
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}

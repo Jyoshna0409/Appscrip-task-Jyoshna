@@ -1,0 +1,28 @@
+/* styles/ProductGrid.module.css */
+.container {
+    display: flex;
+}
+
+.filterSection {
+    width: 20%;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 80%;
+    padding: 20px;
+}
+
+.productCard {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.productImage img {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,143 @@
+.footer {
+    background-color: #000;
+    /* Black background */
+    color: #fff;
+    /* White text */
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.topSection {
+    display: flex;
+    justify-content: space-between;
+    /* Space out the subscribe and contact sections */
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.subscribe {
+    text-align: left;
+    width: 40%;
+}
+
+.subscribe h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.subscribe p {
+    margin-bottom: 20px;
+    font-family: 'Simplon Norm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Misc/White */
+    color: #FFFFFF;
+
+}
+
+.inputWrapper {
+    display: flex;
+}
+
+.inputWrapper input {
+    flex: 1;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+.inputWrapper button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contactInfo {
+    width: 35%;
+    /* Adjust width to align with subscribe section */
+    text-align: left;
+}
+
+.contactInfo p {
+    font-family: 'Simplon Norm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* Misc/White */
+    color: #FFFFFF;
+}
+
+.footerLinks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-top: 1px solid #333;
+    /* Separator line */
+    padding-top: 40px;
+}
+
+.footerSection {
+    width: 22%;
+}
+
+.footerSection h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footerSection ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footerSection li {
+    margin-bottom: 10px;
+    font-family: 'Simplon Norm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    /* Misc/White */
+    color: #FFFFFF;
+}
+
+.footerSection a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerSection a:hover {
+    text-decoration: underline;
+}
+
+/* Separator lines between the columns */
+
+.socialIcons img,
+.paymentIcons img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.paymentIcons img {
+    width: 40px;
+}
+
+.copyright {
+    margin-top: 40px;
+    font-size: 12px;
+    text-align: center;
+}
